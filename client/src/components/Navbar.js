@@ -16,10 +16,10 @@ const Navbar = () => {
             </InputAdornment>
           ),
           style: {
-            height: '30px',         // Set the height here
-            padding: '0 8px',       // Padding left and right (top and bottom will be set via font size)
-            fontSize: '14px',       // Decrease font size for a smaller box
-            lineHeight: '1.2',      // Set line height to control the vertical space
+            height: '30px',         
+            padding: '0 8px',       
+            fontSize: '14px',      
+            lineHeight: '1.2',      
           },
         }}
       />
@@ -44,7 +44,7 @@ const navbarStyle = {
 };
 
 const searchBoxStyle = {
-  width: '300px', // Increased width
+  width: '300px', 
   borderRadius: '4px',
 };
 
