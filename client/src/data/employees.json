@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "name": "Johnson Wood",
+      "role": "Front End Developer",
+      "email": "johnsonwood@microsoft.com",
+      "status": "Active",
+      "image": "images/u6.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "John Doe",
+      "role": "Team Lead",
+      "email": "johndoe@microsoft.com",
+      "status": "Inactive",
+      "image": "images/u6.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Fakhar Naveed",
+      "role": "UI/UX Designer",
+      "email": "fakhar123@microsoft.com",
+      "status": "Active",
+      "image": "images/u6.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Alex Made",
+      "role": "Software Engineer",
+      "email": "alexmade@microsoft.com",
+      "status": "Inactive",
+      "image": "images/u6.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Emily Carter",
+      "role": "Data Scientist",
+      "email": "emilycarter@microsoft.com",
+      "status": "Active",
+      "image": "images/u6.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "Michael Johnson",
+      "role": "Project Manager",
+      "email": "michaeljohnson@microsoft.com",
+      "status": "Inactive",
+      "image": "images/u6.jpeg"
+    }
+  ]
+  
