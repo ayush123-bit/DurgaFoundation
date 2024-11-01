@@ -1,4 +1,4 @@
-/* MainPage.css */
+
 .main-page {
     padding: 20px;
     background-color: #f0f0f5;
@@ -20,8 +20,8 @@
   .button-container {
     display: flex;
     gap: 10px;
-    flex-wrap: wrap; /* Allows buttons to wrap on smaller screens */
-    justify-content: flex-end; /* Align buttons to the right */
+    flex-wrap: wrap; 
+    justify-content: flex-end; 
   }
   
   .filter-button {
@@ -31,7 +31,7 @@
     border-radius: 10px;
     cursor: pointer;
     font-size: 16px;
-    flex: 1; /* Allow buttons to grow equally in width */
+    flex: 1; 
   }
   
   .filter-button-active {
@@ -41,25 +41,25 @@
   
   .cards-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Default to 3 columns */
+    grid-template-columns: repeat(3, 1fr); 
     gap: 20px;
     justify-content: center;
   }
   
-  /* Media query for responsiveness */
+  
   @media (max-width: 1200px) {
     .cards-container {
-      grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
+      grid-template-columns: repeat(2, 1fr); 
     }
   }
   
   @media (max-width: 768px) {
     .cards-container {
-      grid-template-columns: 1fr; /* 1 column for small screens */
+      grid-template-columns: 1fr; 
     }
   
     .button-container {
-      justify-content: center; /* Center align buttons on small screens */
+      justify-content: center; 
     }
   }
   

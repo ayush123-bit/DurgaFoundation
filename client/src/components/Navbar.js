@@ -1,7 +1,7 @@
 import React from 'react';
 import { TextField, InputAdornment } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
-import './Navbar.css'; // Import the CSS file
+import './Navbar.css'; 
 
 const Navbar = () => {
   return (
@@ -9,7 +9,7 @@ const Navbar = () => {
       <TextField
         variant="outlined"
         placeholder="Search"
-        className="searchBox" // Apply CSS class
+        className="searchBox" 
         InputProps={{
           startAdornment: (
             <InputAdornment position="start">
@@ -24,13 +24,13 @@ const Navbar = () => {
           },
         }}
       />
-      <div className="userInfo"> {/* Apply CSS class */}
+      <div className="userInfo"> 
         <img
           src="images/u6.jpeg"
           alt="User"
-          className="userImage" // Apply CSS class
+          className="userImage" 
         />
-        <span className="userName">Fakhar Naveed</span> {/* Apply CSS class */}
+        <span className="userName">Fakhar Naveed</span> 
       </div>
     </div>
   );

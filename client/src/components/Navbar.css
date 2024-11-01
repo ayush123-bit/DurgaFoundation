@@ -1,4 +1,4 @@
-/* Navbar.css */
+
 
 .navbar {
     display: flex;
@@ -9,7 +9,7 @@
   }
   
   .searchBox {
-    width: 200px; /* Decrease width of search box */
+    width: 200px; 
     border-radius: 4px;
   }
   
@@ -31,7 +31,7 @@
   
   @media (max-width: 768px) {
     .userName {
-      display: none; /* Hide the username on mobile screens */
+      display: none; 
     }
   }
   

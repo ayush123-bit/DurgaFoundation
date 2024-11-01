@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import EmployeeCard from './EmployeeCard';
 import employeesData from '../data/employees.json';
-import './MainPage.css'; // Import the CSS file
+import './MainPage.css'; 
 
 const MainPage = () => {
   const [employees, setEmployees] = useState([]);
 
-  // Loading employee data from JSON
+  
   useEffect(() => {
     setEmployees(employeesData);
   }, []);
