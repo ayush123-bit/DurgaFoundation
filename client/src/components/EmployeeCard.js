@@ -20,7 +20,7 @@ const EmployeeCard = ({ employee }) => {
 };
 
 const cardStyle = {
-  width: '350px', // Slightly wider card
+  width: '350px', 
   margin: '15px',
   padding: '20px',
   backgroundColor: '#ddd',
@@ -66,25 +66,25 @@ const emailStyle = {
   fontSize: '14px',
   color: '#555',
   marginLeft: '78px',
-  marginTop: '10px', // Space between email and the elements above
-  marginBottom: '35px' // Extra space between email and buttons
+  marginTop: '10px', 
+  marginBottom: '35px'
 };
 
 const emailValueStyle = {
-  fontWeight: 'bold', // Makes the email value bold
+  fontWeight: 'bold',
 };
 
 const buttonContainerStyle = {
   display: 'flex',
-  justifyContent: 'center', // Center the buttons
-  gap: '10px', // Adds space between buttons
+  justifyContent: 'center',
+  gap: '10px',
   width: '100%',
-  marginTop: '10px' // Additional spacing above buttons
+  marginTop: '10px'
 };
 
 const cardButtonStyleBlock = {
-  width: '40%', // Decrease button width to 40%
-  padding: '6px 0', // Decreased padding for smaller button height
+  width: '40%', 
+  padding: '6px 0', 
   backgroundColor: 'white',
   color: 'black',
   border: '2px solid black',
@@ -93,8 +93,8 @@ const cardButtonStyleBlock = {
 };
 
 const cardButtonStyleDetails = {
-  width: '40%', // Decrease button width to 40%
-  padding: '6px 0', // Decreased padding for smaller button height
+  width: '40%', 
+  padding: '6px 0', 
   backgroundColor: 'black',
   color: 'white',
   border: 'none',
